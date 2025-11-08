@@ -1,0 +1,10 @@
+background-color: #30353a;
+good almond white nav color? F1F0EA
+blue main color: #4088d6
+light blue text color: #a1bad6
+
+
+More realistically:
+background color: white
+text: black
+header: 

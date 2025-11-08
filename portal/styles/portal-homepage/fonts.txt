@@ -1,0 +1,4 @@
+Header: Times New Roman
+Main: Arial
+Special: 
+Cool: https://fonts.google.com/specimen/Metal+Mania?categoryFilters=Appearance:%2FSeasonal%2FHalloween

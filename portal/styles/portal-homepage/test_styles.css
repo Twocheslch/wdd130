@@ -1,0 +1,277 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  background-color: #f8f8f8;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#logo img {
+  width: 120px;
+  height: auto;
+  border-radius: 50%;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+#hero {
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+#hero img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#find-out-more-button button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#find-out-more-button button:hover {
+  background-color: #005f99;
+}
+
+#projects {
+  padding: 3rem 10%;
+  background-color: #fff;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.project-container img {
+  width: 50%;
+  border-radius: 8px;
+  border: 5px solid black;
+  box-shadow: 0 10px 21px rgba(0, 0, 0, 0.1);
+}
+
+.project-info {
+  width: 50%;
+  background-color: #222;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.project-info h3 {
+  margin-top: 0;
+}
+
+.project-info a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #007acc;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.project-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.ul {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.ul h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+  border-bottom: 2px solid #007acc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.ul ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ul li {
+  margin: 10px 0;
+}
+
+.ul a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: 600;
+  transition: color 0.2s, transform 0.2s;
+}
+
+#gub {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+
+}
+
+.ul a:hover {
+  color: #005f99;
+  transform: scale(1.05);
+}
+
+/* --- Favorite ICE Project Form --- */
+.favorite-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 2rem auto 4rem;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.favorite-form h4 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #007acc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.favorite-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.favorite-form select,
+.favorite-form textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.favorite-form button,
+.ul button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.favorite-form button:hover,
+.ul button:hover {
+  background-color: #005f99;
+  transform: scale(1.05);
+}
+
+/* --- Schedule Table --- */
+.schedule {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 3rem auto;
+  max-width: 700px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.schedule h4 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #007acc;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #ddd;
+  padding: 0.8rem;
+}
+
+.schedule th {
+  background-color: #007acc;
+  color: white;
+}
+
+.schedule tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.schedule tr:hover {
+  background-color: #e0f1ff;
+  transition: background-color 0.2s;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+footer .social img {
+  width: 24px;
+  margin: 0 5px;
+}

@@ -1,0 +1,58 @@
+/* Add your CSS here to style your halloween page */
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Nanum+Brush+Script&display=swap');
+
+
+* {
+    Box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+}
+
+Img {
+    Width: 50em;
+    height: auto;
+}
+
+/* starter */
+
+nav ul {
+    color: #391b02;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+    background: #DDD78D;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0 0 20px orange;
+    animation: flicker 3s infinite;
+    text-shadow: 0 0 10px #ff6600, 0 0 20px #ff3300;
+
+}
+
+nav ul:hover{
+
+}
+
+
+main {
+    color: #F37207;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+
+main img {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+main h1 {
+    font-family: 'Henny Penny';
+    color: #F37207;
+    grid-column: 2/4;
+    
+}

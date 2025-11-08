@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        #box {
+            max-width: 1400px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: end;
+            gap: 1em;
+        }
+
+        #box img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 50% 0;
+            border: 5px solid purple;
+        }
+
+        #box h1 {
+            flex: 1 1 100%;
+        }
+
+        img {
+            border: 1px solid red;
+        }
+
+        img#middle-image {
+            width: 300px;
+            height: 300px;
+        }
+
+        body{
+            background-color: #E8ECED;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        
+
+        #apostles-box{
+            background-image: url(images/christus.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 70% center;
+            border: 10px solid black;
+            border-radius: 30px;
+            max-width: 1000px;
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        img{
+            border:7.5px solid white;
+            border-radius: 50%;
+            width: 175px;
+            height: 175px;
+            object-fit: cover;
+            object-position: 50% 0%;
+        }
+
+        img.large_img{
+            width: 175px;
+            height: 175px;
+        
+        }
+
+        img.medium_img{
+            width: 150px;
+            height: 150px;
+        }
+
+        img.small_img{
+            width: 100px;
+            height: 100px;
+
+        }
+
+        #first-presidency-box{
+            
+        }
+
+        #first-presidency-box img{
+            margin: .8em;
+        }
+
+        #quorom-twelve-box{
+            max-width: 500px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: 0 auto;
+            justify-items: center;
+            row-gap: 1em;
+            padding: 25px 0;
+
+        }
+
+        h2{
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="apostles-box">
+        <h1>First Presidency</h1>
+        <div id="first-presidency-box">
+            <img class=medium_img src="images/eyring.webp" alt="">
+            <img class=large_img src="images/oaks.webp" alt="">
+            <img class=medium_img src="images/christofferson.webp" alt="">
+        </div>
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div id="quorom-twelve-box">
+            <img class=small_img src="images/holland.webp" alt="Holland">
+            <img class=small_img src="images/uchtdorf.webp" alt="Uchtdorf">
+            <img class=small_img src="images/bednar.webp" alt="Bednar">
+            <img class=small_img src="images/cook.webp" alt="Cook">
+            <img class=small_img src="images/anderson.webp" alt="Anderson">
+            <img class=small_img src="images/rasband.webp" alt="Rasband">
+            <img class=small_img src="images/stevenson.webp" alt="Stevenson">
+            <img class=small_img src="images/renlund.webp" alt="">
+            <img class=small_img src="images/gong.webp" alt="">
+            <img class=small_img src="images/soares.webp" alt="">
+            <img class=small_img src="images/kearon.webp" alt="">
+            <img class=small_img src="https://placehold.co/320x384" alt="">
+            
+
+        </div>
+    </div>
+</body>
+
+</html>

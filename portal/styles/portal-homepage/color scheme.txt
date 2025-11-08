@@ -1,0 +1,5 @@
+Background color: #EBEBEB
+Sub-background: #CAD2C5
+highlight: #3C91E6
+Nav: #0B3C49
+ees for fun: #84A98C
