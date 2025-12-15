@@ -1,0 +1,43 @@
+*{
+	Box-sizing: border-box;
+	Margin: 0;
+	Padding: 0;
+}
+
+Img{
+	Width: 100%;
+	height: auto;
+}
+
+.content{
+    margin: 0px 45em;
+}
+
+#client-report-title{
+    font-size: 8em;
+    justify-self: center;
+}
+
+.header{
+    margin-top: 100px;
+    
+}
+
+.answers{
+    margin-left: 100px;
+}
+
+li{
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+footer{
+    padding: 50px 0px;
+}
+
+footer, a{
+    justify-self: center;
+    margin: 0 auto;
+    font-size: x-large;
+}

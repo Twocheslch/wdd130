@@ -50,8 +50,10 @@ nav a:hover {
 #find-out-more-button button {
   background-color: #007acc;
   color: white;
+  font-weight: bolder;
+  font-size: larger;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 30px;
   margin-top: 15px;
   cursor: pointer;
   border-radius: 5px;
